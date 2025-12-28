@@ -1,0 +1,226 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #121212; 
+    color: #ffffff; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 15px 0;
+    padding-bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    width: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.logo-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo-description {
+    font-size: 14px;
+    opacity: .7;
+}
+
+.contact {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contact-text {
+    font-size: 14px;
+    opacity: .7;
+}
+
+.contact-email {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition: opacity .3s ease;
+}
+
+.contact-email:hover, .legal-link:hover, .legal-text a:hover {
+    opacity: .7;
+}
+
+.hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero-heading {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.product {
+    max-width: 315px;
+    background-color: #2B2B2B;
+}
+
+.product-top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+}
+
+.product-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px 25px;
+    padding-bottom: 30px;
+}
+
+.product-description {
+    font-size: 14px;
+    margin: 0;
+}
+
+.product-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.product-button {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 8px 22px;
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    transition: background-color .3s ease;
+}
+
+.product-button:hover {
+    background-color: rgb(193, 193, 193);
+}
+
+.hero-products {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #2B2B2B;
+    padding: 25px 0;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.legal {
+    display: flex;
+    gap: 30px;
+}
+
+.legal-link, .legal-text a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: opacity .3s ease;
+}
+
+.hero {
+    height: 100vh;
+    height: 100dvh;
+    min-height: 690px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.legal-hero {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.legal-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.effective-date {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.legal-text {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
