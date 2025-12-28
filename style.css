@@ -46,6 +46,7 @@ img {
 .header-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-img {
@@ -223,4 +224,28 @@ img {
     max-width: 700px;
     margin: 0 auto;
     text-align: left;
+}
+
+@media (max-width: 700px) {
+    .hero {
+        height: auto;
+        min-height: auto;
+        padding-top: 180px;
+        padding-bottom: 150px;
+    }
+    
+    .footer-wrapper {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .header-wrapper {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .contact-text {
+        display: none;
+    }
 }
