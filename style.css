@@ -248,4 +248,8 @@ img {
     .contact-text {
         display: none;
     }
+    .legal-hero {
+        padding-top: 180px;
+    }
 }
+
